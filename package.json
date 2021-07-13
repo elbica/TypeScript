@@ -1,0 +1,28 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "learning typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "tsc",
+    "start": "tsc-watch --onSuccess \" node dist/index2.js \" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elbica/TypeScript.git"
+  },
+  "author": "sohee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elbica/TypeScript/issues"
+  },
+  "homepage": "https://github.com/elbica/TypeScript#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "tsc-watch": "^4.4.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.3.5"
+  }
+}
